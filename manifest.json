@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Discord Timestamp Prefixer",
+  "version": "1.0",
+  "description": "Adds 'Today at' prefix to specific timestamps in Discord.",
+  "permissions": ["scripting"],
+  "host_permissions": ["*://*.discord.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
